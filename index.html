@@ -10,13 +10,13 @@
         <div class="container">
             <header>
                 <nav class="nav-link">
-                    <div class="logo"><img src="./KMM Logo.png" alt="KMM"/></div>
+                    <div class="logo"><img src="./images/KMM Logo.png" alt="KMM"/></div>
                     <ul class="nav-links">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">My Projects</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="myProjects.html">My Projects</a></li>
                         <li><a href="contactMe.html">Contact Me</a></li>
-                        <li><a href="">About Me</a></li>
-                        <li><a href="Kingsley's Resume.pdf" class="resume-btn" download>Resume</a></li>
+                        <li><a href="aboutMe.html">About Me</a></li>
+                        <li><a href="MK MAAMOGWA Software Developer CV.pdf" class="resume-btn" download>Resume</a></li>
                     </ul>
                 </nav>
             </header>
@@ -37,7 +37,7 @@
             <br>
             <div class="projects">
                 <div class="project-card">
-                    <div class="project-image"><img src="./Keepmeclean.png" alt="Picture" /></div>
+                    <div class="project-image"><img src="./images/Keepmeclean.png" alt="Picture" /></div>
                     <div class="project-info">
                         <h3>Keep Me Clean</h3>
                         <p>Keep Me Clean is a community-driven platform dedicated to
@@ -50,19 +50,18 @@
                             <span class="lang">Javascript</span>
                         </div>
                         <div class="urls">
-                            <a href="">Case Study</a>
-                            <a href="">Code base</a>
+                            <a href="#modal-keep-me-clean">Case Study</a>
+                            <a href="https://github.com/mxolisi07/Keep-Me-Clean-1-">View Code</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image"><img src="./image.png" alt="Picture" /></div>
+                    <div class="project-image"><img src="./images/image.png" alt="Picture" /></div>
                     <div class="project-info">
-                        <h3>Keep Me Clean</h3>
-                        <p>Keep Me Clean is a community-driven platform dedicated to
-                            maintaining clean and safe public spaces. Report issues,
-                            track progress, and connect with your neighborhood.
+                        <h3>Pine City Zoo</h3>
+                        <p>An interactive front-end web application for a virtual zoo tour, 
+                            showcasing animals and their habitats.
                         </p>
                         <div class="span-lang">
                             <span class="lang">HTML</span>
@@ -70,36 +69,127 @@
                             <span class="lang">Javascript</span>
                         </div>
                         <div class="urls">
-                            <a href="">Case Study</a>
-                            <a href="">Code base</a>
+                            <a href="#" class="project-link" id="btn-keep-me-clean">Case Study</a>
+                            <a href="https://github.com/mxolisi07/Pine-City-Zoo.git">View Code</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image"><img src="./linksvaults.jpeg" alt="Picture" /></div>
+                    <div class="project-image"><img src="./images/Cars' Rental.png" alt="Picture" /></div>
                     <div class="project-info">
-                        <h3>Keep Me Clean</h3>
-                        <p>Keep Me Clean is a community-driven platform dedicated to
-                            maintaining clean and safe public spaces. Report issues,
-                            track progress, and connect with your neighborhood.
+                        <h3>Car Rental Management System</h3>
+                        <p>A desktop application streamlining administrative tasks for rental companies, 
+                            reducing errors and improving efficiency.
                         </p>
                         <div class="span-lang">
-                            <span class="lang">HTML</span>
-                            <span class="lang">CSS</span>
-                            <span class="lang">Javascript</span>
+                            <span class="lang">Java</span>
+                            <span class="lang">Java Swing</span>
+                            <span class="lang">MySQL</span>
                         </div>
                     </div>
                     <div class="footer-urls">
                         <div class="urls">
-                            <a href="">Case Study</a>
-                            <a href="">Code base</a>
+                            <a href="#" class="project-link" id="btn-car-rental">Case Study</a>
+                            <a href="https://github.com/mxolisi07/Car-Rental-Management-System.git">View Code</a>
                         </div>
                     </div>
                 </div>
 
             </div>
             
+        </div>
+
+        <div id="modal-car-rental" class="modal">
+            <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Keep Me CLean</h2>
+            <h3>A Cleaner City – From Citizen Report to Resolution</h3>
+            
+            <h4>The Problem</h4>
+            <p>Traditional waste reporting relied on phone calls and walk-ins, 
+                which were prone to lost or misrouted complaints during peak periods, 
+                offered no visual way for citizens to report issues with photos, and 
+                gave municipalities no way to track trends, monitor worker performance, 
+                or prioritize cleanup zones effectively.
+            </p>
+            
+            <h4>The Solution</h4>
+            <p>I developed a full-stack web application that digitizes the waste management 
+                reporting cycle from end to end. Citizens can report sanitation issues with 
+                location and details, while municipality administrators gain a centralized 
+                dashboard to triage, assign, and resolve reports, supported by a structured 
+                database of zones, workers, and categories.
+            </p>
+            
+            <h4>Key Features & Implementation</h4>
+            <ul>
+                <li><strong>Citizen Reporting Portal:</strong> Simple interface to submit issues by category (e.g., garbage accumulation, illegal dumping) with location and description details.</li>
+                <li><strong>Municipality Dashboard:</strong> Multi-page admin portal (Dashboard, Reports, Workers, Zones, Analytics, Settings) displaying real-time KPIs including total, pending, and resolved reports.</li>
+                <li><strong>Report Management & Tracking:</strong> Filterable report tables with status lifecycle (Pending → In Progress → Resolved) and worker assignment workflows.</li>
+                <li><strong>Worker & Zone Management:</strong> Dedicated modules to assign sanitation workers to zones, monitor active status, and track reports handled per worker.</li>
+                <li><strong>Analytics & Insights:</strong> Trend visualizations, zone comparisons, and KPI tables (resolution time, citizen satisfaction, repeat issue rates) to support data-driven decisions.</li>
+                <li><strong>Secure Authentication:</strong> Role-based login protecting the municipality portal with session management.</li>
+                <li><strong>Tech Stack:</strong> Built with <strong>PHP</strong>, <strong>MySQL</strong>, <strong>HTML5, CSS3</strong>,  <strong>JavaScript</strong> hosted on the XAMPP stack with AJAX for real-time dashboard updates.</li>
+            </ul>
+            
+            <h4>What I Learned</h4>
+            <p>This project was a strong lesson in <strong>database-driven application design</strong>, normalizing complex relationships between reports, 
+                workers, zones, and categories. Implementing real-time statistics and dynamic filtering reinforced my logic skills in <strong>PHP and SQL</strong>, 
+                while building a responsive, multi-page dashboard deepened my understanding of <strong>UX for administrative systems</strong> and secure session-based authentication.</p>
+            </div>
+        </div>
+
+        <div id="modal-pine-zoo" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Pine City Zoo</h2>
+                <h3>Bringing the Zoo Experience Online</h3>
+                
+                <h4>The Problem</h4>
+                <p>Potential visitors often want to preview a zoo's attractions before planning a visit. A static, informational website fails to capture the excitement and educational value of the animals, missing an opportunity to engage users and drive ticket sales.</p>
+                
+                <h4>The Solution</h4>
+                <p>I designed and developed a dynamic, interactive virtual tour website for a fictional zoo. The site allows users to explore different animal exhibits, learn detailed facts in an engaging way, and easily find practical visit information, creating an online experience that mirrors the wonder of an actual visit.</p>
+                
+                <h4>Key Features & Implementation</h4>
+                <ul>
+                    <li><strong>Interactive Habitat Sections:</strong> Themed sections (e.g., African Savannah, Amazon Rainforest) with curated animal displays.</li>
+                    <li><strong>Dynamic Animal Cards:</strong> Clickable animal profiles that reveal detailed information about their species, habitat, and conservation status, enhancing user engagement.</li>
+                    <li><strong>Responsive Design:</strong> A fully responsive layout that provides an optimal viewing experience across all devices, from desktops to mobile phones.</li>
+                    <li><strong>Modern Front-End Stack:</strong> Built from scratch with semantic <strong>HTML5</strong>, styled with <strong>CSS3</strong> (utilizing Flexbox/Grid for layout), and enhanced with interactive elements using vanilla <strong>JavaScript</strong>.</li>
+                    <li><strong>Design-First Approach:</strong> Prototyped the user interface and experience in <strong>Figma</strong> before writing any code, ensuring a visually appealing and intuitive final product.</li>
+                </ul>
+                
+                <h4>What I Learned</h4>
+                <p>This project was a perfect exercise in modern front-end development. It solidified my skills in <strong>creating responsive layouts</strong>, manipulating the DOM with JavaScript to create interactivity, and following a <strong>design-to-code workflow</strong>. It emphasized the importance of designing for the user first to create a compelling and functional web experience.</p>
+            </div>
+        </div>
+
+        <div id="modal-car-rental" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2>Car Rental Management System</h2>
+                    <h3>Streamlining Operations for a Digital Garage</h3>
+                    
+                    <h4>The Problem</h4>
+                    <p>Small to medium-sized car rental companies often rely on manual record-keeping with spreadsheets or paper-based systems. This leads to inefficiencies, difficulty tracking vehicle availability, higher risk of human error in billing, and a poor overview of business performance.</p>
+                    
+                    <h4>The Solution</h4>
+                    <p>I designed and developed a comprehensive desktop application to serve as a centralized management hub. The system digitizes the entire rental lifecycle, from adding new vehicles to generating end-of-day financial reports, ensuring data accuracy and saving administrative time.</p>
+                    
+                    <h4>Key Features & Implementation</h4>
+                    <ul>
+                        <li><strong>Vehicle & Customer Management:</strong> Secure databases to add, edit, and archive vehicle and customer records.</li>
+                        <li><strong>Transaction Processing:</strong> An intuitive interface to handle rentals and returns, automatically calculating costs.</li>
+                        <li><strong>Availability Tracking:</strong> Automatic status updates (Available, Rented, Maintenance) to prevent double-booking.</li>
+                        <li><strong>Reporting Module:</strong> Generate instant reports on revenue and customer history.</li>
+                        <li><strong>Tech Stack:</strong> Built with <strong>Java</strong> and <strong>Java Swing</strong> for the GUI, connected to a <strong>MySQL</strong> database.</li>
+                    </ul>
+                    
+                    <h4>What I Learned</h4>
+                    <p>This project deepened my understanding of <strong>relational database design</strong>, <strong>CRUD operations</strong>, and building intuitive user interfaces for complex business logic.</p>
+                </div>
         </div>
 
         <div class="footer-container">
