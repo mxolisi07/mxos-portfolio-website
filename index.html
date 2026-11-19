@@ -26,7 +26,7 @@
             <div class="hero">
                 <h1>Hey there, I'm Mxoliswa</h1>
                 <p>I build digital solutions that solve practical problems<br> and enhance user experiences. From streamlining business <br>operations to creating engaging educational platforms.</p>
-                <button class="btn-projects">View My Projects</button>
+                <a href="#myProjects" class="btn-view-projects">View Projects</a>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
             <br>
             <hr>
             <br>
-            <div class="projects">
+            <div class="projects" id="myProjects">
                 <div class="project-card">
                     <div class="project-image"><img src="./images/Keepmeclean.png" alt="Picture" /></div>
                     <div class="project-info">
@@ -50,7 +50,7 @@
                             <span class="lang">Javascript</span>
                         </div>
                         <div class="urls">
-                            <a href="#modal-keep-me-clean">Case Study</a>
+                            <a href="#modal-keep-me-clean" class="project-link" id="btn-keep-me-clean">Case Study</a>
                             <a href="https://github.com/mxolisi07/Keep-Me-Clean-1-">View Code</a>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             <span class="lang">Javascript</span>
                         </div>
                         <div class="urls">
-                            <a href="#" class="project-link" id="btn-keep-me-clean">Case Study</a>
+                            <a href="#modal-pine-zoo" class="project-link" id="btn-pine-zoo">Case Study</a>
                             <a href="https://github.com/mxolisi07/Pine-City-Zoo.git">View Code</a>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="footer-urls">
                         <div class="urls">
-                            <a href="#" class="project-link" id="btn-car-rental">Case Study</a>
+                            <a href="#modal-car-rental" class="project-link" id="btn-car-rental">Case Study</a>
                             <a href="https://github.com/mxolisi07/Car-Rental-Management-System.git">View Code</a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
             
         </div>
 
-        <div id="modal-car-rental" class="modal">
+        <div id="modal-keep-me-clean" class="modal">
             <div class="modal-content">
             <span class="close-modal">&times;</span>
             <h2>Keep Me CLean</h2>
@@ -191,6 +191,8 @@
                     <p>This project deepened my understanding of <strong>relational database design</strong>, <strong>CRUD operations</strong>, and building intuitive user interfaces for complex business logic.</p>
                 </div>
         </div>
+
+        <script src="script.js"></script>
 
         <div class="footer-container">
             <footer class="footer">
